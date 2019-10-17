@@ -1,0 +1,136 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "serveur",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SalonIntent",
+                    "slots": [
+                        {
+                            "name": "status",
+                            "type": "STATUS"
+                        }
+                    ],
+                    "samples": [
+                        "{status} le salon"
+                    ]
+                },
+                {
+                    "name": "SalMangerIntent",
+                    "slots": [
+                        {
+                            "name": "status",
+                            "type": "STATUS"
+                        }
+                    ],
+                    "samples": [
+                        "{status} la salle a manger"
+                    ]
+                },
+                {
+                    "name": "CuisIntent",
+                    "slots": [
+                        {
+                            "name": "status",
+                            "type": "STATUS"
+                        }
+                    ],
+                    "samples": [
+                        "{status} la cuisine"
+                    ]
+                },
+                {
+                    "name": "ChamieIntent",
+                    "slots": [
+                        {
+                            "name": "status",
+                            "type": "STATUS"
+                        }
+                    ],
+                    "samples": [
+                        "{status} la chambre"
+                    ]
+                },
+                {
+                    "name": "ChLorlaieIntent",
+                    "slots": [
+                        {
+                            "name": "status",
+                            "type": "STATUS"
+                        }
+                    ],
+                    "samples": [
+                        "{status} la chambre de lorlaie"
+                    ]
+                },
+                {
+                    "name": "ChParentIntent",
+                    "slots": [
+                        {
+                            "name": "status",
+                            "type": "STATUS"
+                        }
+                    ],
+                    "samples": [
+                        "{status} notre chambre"
+                    ]
+                },
+                {
+                    "name": "ChaufIntent",
+                    "slots": [
+                        {
+                            "name": "status",
+                            "type": "STATUS"
+                        }
+                    ],
+                    "samples": [
+                        "{status} le chauffage"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "STATUS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "off",
+                                "synonyms": [
+                                    "eteinds",
+                                    "ferme",
+                                    "descend"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "on",
+                                "synonyms": [
+                                    "allume",
+                                    "ouvre",
+                                    "monte"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
