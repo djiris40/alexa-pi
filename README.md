@@ -12,9 +12,9 @@ Prés-requi:
 Pour la partie Alexa:
  -un compte developpeur Alexa => https://developer.amazon.com 
  -Create Skill , ensuite 
- Skill name : le nom que vous voulez par exemple => raspberry
- Sélectionner Custom et Provision your own
- La votre skill est créer maintenant on va la lier au raspberry avec les ordres
+ Skill name : le nom que vous voulez par exemple => raspberry.
+ Sélectionner Custom et Provision your own.
+ La votre skill est créer maintenant on va la lier au raspberry avec les ordres.
  Aller dans JSON Editor:
   -Drag and drop a .json file => la c'est le fichier Json, donc serveur.json
  et  après Save Model
